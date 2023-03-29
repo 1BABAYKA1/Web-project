@@ -6,7 +6,7 @@ import logging
 
 from discord.ext import commands
 
-TOKEN = "MTA3NDY5MTQyMDUwMzQwODY5MQ.GgHlfI.fYWX8oqne3-5wnU6NB1CJzkPC9IFe9l2JXZxaE"
+TOKEN = "token"
 
 logger = logging.getLogger('discord')
 logger.setLevel(logging.DEBUG)
