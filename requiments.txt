@@ -1,0 +1,7 @@
+import asyncio
+import discord
+import pymorphy2
+import requests
+import logging
+from flask import Flask, render_template, redirect, url_for
+from discord.ext import commands
