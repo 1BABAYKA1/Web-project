@@ -132,7 +132,7 @@ class TranslatorBot(commands.Cog):
 
     @commands.command(name='help_bot')
     async def help(self, ctx):
-        message = 'Чтобы ознакомиться с функциями бота перейдите по ссылке: http://127.0.0.1:8080'
+        message = 'Чтобы ознакомиться с функциями бота перейдите по ссылке: https://walli-bot.glitch.me/'
         await ctx.send(message)
 
     async def on_member_join(self, member):
